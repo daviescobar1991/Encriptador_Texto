@@ -21,7 +21,7 @@ function encriptar() {
         imagen_encrip.src = "./imagenes_2/img_encriptado.png";
         titmensaje.textContent = "Ningun mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto a encriptar";
-        alert("Debes ingresar algun texto");
+        swal ("Error!", "Debes ingresar un texto", "warning");
     }
 
 }
@@ -48,7 +48,7 @@ function desencriptar() {
         imagen_encrip.src = "./imagenes_2/img_encriptado.png";
         titmensaje.textContent = "Ningun mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto a desencriptar";
-        alert("Debes ingresar algun texto");
+        swal ("Error!", "Debes ingresar un texto", "warning");
     }
 }
 
